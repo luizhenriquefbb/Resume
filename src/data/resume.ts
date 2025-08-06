@@ -1,73 +1,159 @@
-import type { ResumeData } from '../types/resume';
+import type { ResumeData } from "../types/resume";
 
 export const resumeData: ResumeData = {
   experiences: [
     {
-      id: 'ctw',
-      company: 'Critical TechWorks',
-      role: 'Full Stack Developer',
-      period: 'Dec 2022 - Present',
-      about: "At Critical TechWorks, a joint venture between the BMW Group and Critical Software, I've been involved in the development and deployment of software solutions for the BMW group's digital transformation initiatives.",
-      roleDescription: "As a Full Stack Developer, I contribute to the end-to-end development lifecycle for many features of the 'Cloud Data Hub.' This sophisticated portal is designed to empower data engineers, abstracting away complex AWS specifications and allowing them to focus purely on data manipulation and insights. My responsibilities span the frontend development process, from collaborating with designers on UI/UX, implementing robust components, ensuring seamless integration with backend services, and overseeing deployment pipelines for optimal user experience.",
+      id: "ctw",
+      company: "Critical TechWorks",
+      role: "Full Stack Developer",
+      period: "Dec 2022 - Present",
+      about:
+        "At Critical TechWorks, a joint venture between BMW Group and Critical Software, I contribute to software solutions powering the digital transformation of BMW.",
+      roleDescription:
+        "I help develop a data portal that centralizes data from multiple sources, organized for easy access. I’m a core contributor to CDEC (Cloud Data Engineering Community), focused on automating data ingestion into user accounts using AWS tools like Glue, Lambda, and ETL pipelines. I'm also responsible for implementing the EU Data Act, ensuring compliance and preventing BMW from incurring fines of up to €20M.",
       contributions: [
         {
-          title: 'CDEC (Cloud Data Engineering Community)',
-          description: 'Contributed to the frontend development of the CDEC feature. This module helps data engineers create complex data pipelines with a no-code, visual interface. Users can drag-and-drop various data operations, link them together, and visualize their data flow, with the orchestration handled in the background. My focus was on building an interactive and responsive user interface that simplifies complex data workflows.'
+          title: "CDEC (Cloud Data Engineering Community)",
+          description:
+            "Driving automation of data ingestion into user accounts using AWS services including Glue, Lambda, and ETL pipelines, streamlining the data engineering experience.",
         },
         {
-          title: 'Data Portal User Experience',
-          description: 'Contributed to enhancing the user experience of the main data portal by implementing responsive layouts, optimizing load times, and ensuring cross-browser compatibility, making data access and organization effortless for users.'
-        }
+          title: "EU Data Act Compliance",
+          description:
+            "Implemented processes for data accessibility and portability to comply with the EU Data Act, avoiding potential €20M in regulatory fines for BMW.",
+        },
+        {
+          title: "Data Portal",
+          description:
+            "Helped build a portal organizing data from multiple sources into searchable categories for easier discovery and access by internal teams.",
+        },
       ],
-      technologies: ['React', 'TypeScript', 'Jest', 'Cypress']
+      technologies: [
+        "React",
+        "TypeScript",
+        "Python",
+        "Jest",
+        "Pytest",
+        "Terraform",
+        "Docker",
+        "AWS",
+        "Lambda",
+        "Cypress",
+        "Selenium",
+      ],
     },
     {
-      id: 'trimble',
-      company: 'Trimble Inc.',
-      role: 'Full-stack Developer',
-      period: 'Jun 2021 - Nov 2022',
-      about: "Trimble Inc. is a global technology company that delivers products and services connecting the physical and digital worlds. I specifically worked within their transportation branch, contributing to a product designed to collect and analyze data from thousands of delivery trucks, optimizing logistics and fleet management.",
-      roleDescription: "As a Full-stack Developer, my role involved a significant focus on the frontend, collaborating closely with backend and DevOps teams. I contributed to planning and structuring new and enhancing existing features for the web application, aiming for a smooth and intuitive user experience. My responsibilities included developing interactive components and optimizing the application's performance. I also participated in task refinement sessions, providing frontend insights, and was an active member of the division's 'QA community,' where I helped maintain and improve automated tests.",
+      id: "trimble",
+      company: "Trimble Inc.",
+      role: "Full Stack Developer",
+      period: "Jun 2021 - Nov 2022",
+      about:
+        "Trimble Inc. is a technology company focused on connecting the physical and digital worlds. I worked in their transportation branch building web features and reports for fleet data analysis.",
+      roleDescription:
+        "Collaborated with backend, frontend, and DevOps teams to plan and build new features. Contributed heavily to QA processes, report generation, and frontend architecture. Helped with system design, participated in task refinement, and built frontend features using Python and React.",
       contributions: [
         {
-          title: 'Driver Login Report Frontend',
-          description: 'Contributed to the frontend development for a report that identified drivers not logged into the system while driving. This involved designing an intuitive interface for filtering and visualizing datasets, aiming for data clarity and actionable insights for operations managers.'
+          title: "Driver Login Report",
+          description:
+            "Created a report to identify drivers not logged into the system while driving. Designed a user-friendly UI for filtering and visualizing fleet data.",
         },
         {
-          title: 'Automated Test Migration & Enhancement',
-          description: 'Assisted in the migration of our end-to-end test suite from Selenium to Cypress. This helped improve test reliability, reduce execution times, and enable faster feedback for the development team. I also helped with the inclusion and training of tools that increase developers\' productivity, like debuggers, in different projects.'
-        }
+          title: "QA and Test Automation",
+          description:
+            "Participated in QA initiatives and helped migrate and maintain test automation using Cypress and Selenium.",
+        },
       ],
-      technologies: ['React', 'TypeScript', 'JavaScript', 'Selenium', 'Cypress']
+      technologies: [
+        "React",
+        "TypeScript",
+        "Python",
+        "Flask",
+        "Selenium",
+        "Cypress",
+        "AWS",
+        "Lambda",
+        "Docker",
+        "Pytest",
+      ],
     },
     {
-      id: 'germanicos',
-      company: 'Germanicos Bespoke Tailors',
-      role: 'Full Stack Developer',
-      period: 'Mar 2018 - Nov 2020',
-      about: "Germanicos Bespoke Tailors is a bespoke tailoring company in Australia. I contributed to enhancing their digital presence, specifically focusing on their Point of Sale (POS) system and customer-facing digital experiences.",
-      roleDescription: "As a Full Stack Developer (and initially Frontend Developer), I was involved in the planning and structuring of new features, including database design and the overall system architecture, working closely with the CTO. My primary frontend contributions focused on developing customer-facing visualization tools and implementing marketing automation functionalities to drive engagement.",
+      id: "greenplat",
+      company: "Green Plat",
+      role: "Backend Developer",
+      period: "Nov 2020 - Sep 2021",
+      about:
+        "Green Plat is a Brazilian company focused on sustainable technology solutions. I worked on backend systems and governmental process automation.",
+      roleDescription:
+        "Supported feature planning and helped design changes in system architecture and database. Developed a bot for integrating with Brazilian government systems.",
       contributions: [
         {
-          title: '3D Customization Visualizer',
-          description: 'Developed a 3D visualization component that allowed customers to see their custom garments in real-time as they made selections. This interactive feature, built with JavaScript, HTML and CSS aimed to enhance the online shopping experience by providing an accurate preview of the final product, helping boost customer confidence and conversion rates.'
+          title: "Government Bot Integration",
+          description:
+            "Designed and implemented a bot to automate integration with government systems, streamlining regulatory processes for the company.",
         },
-        {
-          title: 'Social Media Engagement Bot Frontend',
-          description: 'Developed the frontend interface for a social media bot, utilizing Selenium for automation. This bot aimed to attract more customers, contributing to a 30% increase in page hits within 30 days.'
-        },
-        {
-          title: 'iOS Application Development',
-          description: 'Built a native-like iOS application using web technologies, leveraging JavaScript, HTML, CSS, and jQuery. This application provided customers with a mobile platform to interact with Germanicos\' services.'
-        }
       ],
-      technologies: ['JavaScript', 'HTML', 'CSS', 'KnockoutJS', 'React', 'jQuery', 'Selenium']
-    }
+      technologies: [
+        "Python",
+        "Flask",
+        "Selenium",
+        "HTML",
+        "JavaScript",
+        "CSS",
+      ],
+    },
+    {
+      id: "germanicos",
+      company: "Germanicos Bespoke Tailors",
+      role: "Full Stack Developer",
+      period: "Mar 2018 - Nov 2020",
+      about:
+        "Germanicos is an Australian tailoring company. I enhanced their digital customer experience, internal tools, and mobile presence.",
+      roleDescription:
+        "Collaborated with the CTO to design and structure new digital features. Developed a social media bot and a mobile iOS-like web application. Also maintained meticulous activity logs and documentation.",
+      contributions: [
+        {
+          title: "Social Media Engagement Bot",
+          description:
+            "Developed a bot to boost customer engagement on social media, leading to a 30% increase in page views within 30 days.",
+        },
+        {
+          title: "iOS-like Mobile Application",
+          description:
+            "Built a mobile app using JavaScript, HTML, CSS, and jQuery to improve customer access to services.",
+        },
+      ],
+      technologies: ["JavaScript", "HTML", "CSS", "jQuery", "Selenium"],
+    },
+    {
+      id: "assista",
+      company: "Assista Tecnologia",
+      role: "Software Developer",
+      period: "Mar 2017 - Oct 2017",
+      about:
+        "Assista Tecnologia focused on accessibility solutions. I contributed to tools aimed at improving the theater experience for people with disabilities.",
+      roleDescription:
+        "Led the design of accessible multimedia features using avatars in LIBRAS (Brazilian sign language), audio description, and subtitles. Conducted user testing and ensured real-time media synchronization.",
+      contributions: [
+        {
+          title: "Accessible Theater Experience",
+          description:
+            "Developed an accessibility tool using avatars, audio description, and descriptive subtitles synchronized with movie playback.",
+        },
+      ],
+      technologies: ["Python"],
+    },
   ],
   skills: {
-    'Languages': ['JavaScript', 'TypeScript', 'Python', 'HTML', 'CSS'],
-    'Frameworks & Libraries': ['React', 'Node.js', 'jQuery', 'KnockoutJS', 'Flask'],
-    'Testing': ['Jest', 'Cypress', 'Selenium', 'Pytest'],
-    'Tools & Platforms': ['Docker', 'AWS', 'Git', 'Terraform']
-  }
+    Languages: ["JavaScript", "TypeScript", "Python", "HTML", "CSS", "SQL"],
+    "Frameworks & Libraries": [
+      "React",
+      "Node.js",
+      "jQuery",
+      "KnockoutJS",
+      "Flask",
+    ],
+    Testing: ["Jest", "Cypress", "Selenium", "Pytest"],
+    "Tools & Platforms": ["Docker", "AWS", "Git", "Terraform"],
+    Databases: ["MongoDB", "DynamoDB", "ElasticSearch"],
+  },
 };

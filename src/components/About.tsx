@@ -6,7 +6,7 @@ export const About = () => {
           Software Developer
         </h1>
         <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-600">
-          A highly motivated and skilled Full Stack Developer with a strong focus on frontend development and
+          A highly motivated and skilled Full Stack Developer with a strong focus on full stack development and
           a passion for creating intuitive and responsive user interfaces. Experienced in collaborating with
           cross-functional teams to deliver high-quality software solutions.
         </p>
