@@ -1,0 +1,46 @@
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  left: -0.5rem;
+  top: 0.5rem;
+  transform: translateX(-50%);
+  background-color: #5eead4;
+  /* teal-300 */
+  border: 3px solid #f0fdfa;
+  /* teal-50 */
+}
+
+.section-fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.section-fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.chart-container {
+  position: relative;
+  margin: auto;
+  height: 450px;
+  max-height: 500px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.experience-details {
+  display: none;
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.rotate-0 {
+  transform: rotate(0deg);
+}
